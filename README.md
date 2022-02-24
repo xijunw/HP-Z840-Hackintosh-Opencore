@@ -21,7 +21,7 @@ What is working
 
 What is not working
 * SAS controller with RAID array not recognized
-* Wake up from sleeping causes a reboot since RTSmemFix has not finished and I have no intention to finish it. The machine will be kept runing for computation.
+* Wake up from sleeping causes a reboot since RTSMemFix has not been done
 * Mac fan control could not read any fan speed data thus there is no way to control fan speed. 
 
 USB Map for HP Z840
