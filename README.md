@@ -37,6 +37,7 @@ USB Map for HP Z840
 *  Rear USB2.0 Port 1-2
 *   Port 1: HS11
 *   Port 2: HS12
+
 ** No EHC1/EHC2/XHCI rename was comitted even it as suggested by the guide. Ports do not work properly after renaming. 
 ** Both USBmap Tool and Hackintool did not work properly on the target machine for unknown reason. My mapping was hand picked through IORegistryExplorer on a existing map file for X99.
 
