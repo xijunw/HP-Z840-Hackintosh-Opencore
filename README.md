@@ -23,6 +23,23 @@ What is not working
 * Wake up from sleeping causes a reboot since RTSmemFix has not finished and I have no intention to finish it. The machine will be kept runing for computation.
 * Mac fan control could not read any fan speed data thus there is no way to control fan speed. 
 
+USB Map for HP Z840
+* Front USB3.0 Port 1-4 (Up to down)
+*   Port 1: HS13 SSP4
+*   Port 2: HS10 SSP4
+*   Port 3: HS09 SSP4
+*   Port 4: HS14 SSP4
+*  Rear USB3.0 Port 1-4 (Left to right)
+*   Port 1: HS03 SSP6
+*   Port 2: HS04 SSP5
+*   Port 3: HS06 SSP2
+*   Port 4: HS05 SSP1
+*  Rear USB2.0 Port 1-2
+*   Port 1: HS11
+*   Port 2: HS12
+** No EHC1/EHC2/XHCI rename was comitted even it as suggested by the guide. Ports do not work properly after renaming. 
+** Both USBmap Tool and Hackintool did not work properly on the target machine for unknown reason. My mapping was hand picked through IORegistryExplorer on a existing map file for X99.
+
 Credit 
 * Apple
 * Opencore Team
