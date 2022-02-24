@@ -1,5 +1,5 @@
 # HP-Z840-Hackintosh-Opencore
-Opencore configuration for Catalina
+Opencore configuration for Catalina 10.15.7 (Based on opencore 0.7.7, tested 0.7.8 works)
 
 Here I am sharing the opencore configuration files of HP Z840 Hackintosh with Catalina. It should be works for you if you have a similar hardware configuration, or at least allow you to finish OS installation and have a start point from there.
 
